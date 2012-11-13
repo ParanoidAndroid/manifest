@@ -326,5 +326,10 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
+  <project path="vendor/pa" name="ParanoidAndroid/android_vendor_pa" remote="github" revisoin="jellybean"/>
+
+  <project path="paranoid" name="ParanoidAndroid/paranoid">
+    <copyfile src="build.sh" dest="rom-build.sh" />
+  </project>
 
 </manifest>
