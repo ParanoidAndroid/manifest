@@ -255,7 +255,7 @@
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/ParanoidPreferences" name="android_packages_apps_paranoidpreferences" remote="paranoid" revision="jellybean" />
- <project path="packages/apps/ParanoidWallpapers" name="ParanoidAndroid/android_packages_apps_ParanoidWallpapers" />
+ <project path="packages/apps/ParanoidWallpapers" name="ParanoidAndroid/android_packages_apps_ParanoidWallpapers" remote="github" revision="jellybean" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
@@ -329,7 +329,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
   <project path="vendor/pa" name="ParanoidAndroid/android_vendor_pa" remote="github" revisoin="jellybean"/>
 
-  <project path="paranoid" name="ParanoidAndroid/paranoid">
+  <project path="paranoid" name="ParanoidAndroid/paranoid" remote="github" revisoin="jellybean">
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
