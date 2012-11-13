@@ -2,16 +2,11 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
 
-  <default revision="refs/tags/android-4.2_r1"
-           remote="aosp"
-           sync-c="true"
-           sync-j="4" />
-
   <remote  name="github"
-           fetch="https://github.com"
+           fetch=".."
            review="review.paranoid-rom.com" />
 
   <remote  name="private"
@@ -19,6 +14,11 @@
 
   <remote  name="paranoid"
            fetch="ssh://git@bitbucket.org/paranoidandroid/" />
+
+  <default revision="refs/tags/android-4.2_r1"
+           remote="aosp"
+           sync-c="true"
+           sync-j="4" />
 
   <project path="build" name="platform/build" >
     <copyfile src="core/root.mk" dest="Makefile" />
