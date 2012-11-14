@@ -6,7 +6,7 @@
            review="https://android-review.googlesource.com/" />
 
   <remote  name="github"
-           fetch=".."
+           fetch="https://github.com"
            review="review.paranoid-rom.com" />
 
   <remote  name="private"
