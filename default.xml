@@ -20,7 +20,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="ParanoidAndroid/android_vendor_pa" remote="github" revision="jellybean" >
+  <project path="build" name="ParanoidAndroid/android_build" remote="github" revision="jellybean" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
