@@ -7,13 +7,19 @@
 
   <remote  name="github"
            fetch="https://github.com"
-           review="review.paranoid-rom.com" />
+           review="review.paranoid-rom.com"
+           revision="jellybean" />
+
+  <remote  name="linaro" 
+           fetch="git://android.git.linaro.org/" 
+           revision="linaro_android_4.2" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
   <remote  name="paranoid"
-           fetch="ssh://git@bitbucket.org/paranoidandroid/" />
+           fetch="ssh://git@bitbucket.org/paranoidandroid/" 
+           revision="jellybean" />
 
   <default revision="refs/tags/android-4.2_r1"
            remote="aosp"
@@ -24,7 +30,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic" />
+  <project path="bionic" name="platform/bionic" remote="linaro" revision="linaro_android_4.2"/>
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
@@ -51,6 +57,7 @@
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
+  <project path="external/busybox" name="platform/external/busybox" remote="linaro" revision="linaro-1.20"/>
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
@@ -254,7 +261,6 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/ParanoidPreferences" name="android_packages_apps_paranoidpreferences" remote="paranoid" revision="jellybean" />
   <project path="packages/apps/ParanoidWallpapers" name="ParanoidAndroid/android_packages_apps_ParanoidWallpapers" remote="github" revision="jellybean" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
