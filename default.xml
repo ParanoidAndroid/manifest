@@ -250,7 +250,7 @@
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/Contacts" name="ParanoidAndroid/android_packages_apps_Contacts" remote="github" revision="jellybean" />
   <project path="packages/apps/DeskClock" name="ParanoidAndroid/android_packages_apps_DeskClock" remote="github" revision="jellybean" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
