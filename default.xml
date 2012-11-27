@@ -17,7 +17,7 @@
            fetch="ssh://git@bitbucket.org/paranoidandroid/" 
            revision="jellybean" />
 
-  <default revision="refs/tags/android-4.2_r1"
+  <default revision="refs/tags/android-4.2.1_r1"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
