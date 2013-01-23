@@ -331,7 +331,7 @@
   <project path="vendor/pa" name="ParanoidAndroid/android_vendor_pa" remote="github" revision="jellybean" />
 
   <project path="paranoid" name="ParanoidAndroid/paranoid" remote="github" revision="jellybean" >
-    <copyfile src="build.sh" dest="rom-build.sh" />
+    <copyfile src="build.sh" dest="build.sh" />
   </project>
 
   <!-- Theme engine support, all the credits go to T-Mobile and CyanogenMod -->
