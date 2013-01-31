@@ -49,8 +49,14 @@
   <remove-project name="ParanoidAndroid/android_device_lge_mako" />
   <project name="eugenesan/android_device_lge_mako" path="device/lge/mako" remote="github" revision="jellybean" />
 
+  <remove-project name="ParanoidAndroid/lge-kernel-mako" />
+  <project name="ParanoidAndroid/lge-kernel-mako" path="kernel/lge/mako" remote="github" revision="staging" />
+
   <remove-project name="ParanoidAndroid/android_device_samsung_tuna" />
   <project name="eugenesan/android_device_samsung_tuna" path="device/samsung/tuna" remote="github" revision="jellybean" />
+
+  <remove-project name="ParanoidAndroid/android_device_samsung_maguro" />
+  <project name="eugenesan/android_device_samsung_maguro" path="device/samsung/maguro" remote="github" revision="jellybean" />
 
   <remove-project name="ParanoidAndroid/android_frameworks_base" />
   <project name="eugenesan/android_frameworks_base" path="frameworks/base" remote="github" revision="jellybean" />
@@ -69,9 +75,9 @@
 
   <remove-project name="platform/packages/apps/SoundRecorder" />
   <project name="CyanogenMod/android_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder" remote="github" revision="cm-10.1" />
+
   <remove-project name="platform/packages/inputmethods/OpenWnn" />
   <remove-project name="platform/packages/inputmethods/PinyinIME" />
-
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project name="CyanogenMod/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="github" revision="cm-10.1" />
 
@@ -85,9 +91,6 @@
   <remove-project name="ParanoidAndroid/android_external_busybox" />
 <!--  <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" revision="cm-10.1"/> -->
   <project name="eugenesan/android_external_busybox" path="external/busybox" remote="github" revision="cm-10.1"/>
-
-  <remove-project name="ParanoidAndroid/lge-kernel-mako" />
-  <project name="ParanoidAndroid/lge-kernel-mako" path="kernel/lge/mako" remote="github" revision="staging" />
 
   <remove-project name="platform/external/bluetooth/bluedroid" />
   <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" remote="github" revision="cm-10.1" />
