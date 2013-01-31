@@ -88,4 +88,7 @@
 
   <remove-project name="ParanoidAndroid/lge-kernel-mako" />
   <project name="ParanoidAndroid/lge-kernel-mako" path="kernel/lge/mako" remote="github" revision="staging" />
+
+  <remove-project name="platform/external/bluetooth/bluedroid" />
+  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" remote="github" revision="cm-10.1" />
 </manifest>
