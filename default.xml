@@ -73,6 +73,7 @@
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
   <project path="external/elfutils" name="platform/external/elfutils" remote="aosp" revision="cd7a9917db9ad4a4f56cca5153ea2a7b8fecfde9" />
+  <project path="external/eigen" name="platform/external/eigen" />
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
