@@ -51,7 +51,7 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" />
+  <project path="external/bluetooth/bluedroid" name="ParanoidAndroid/android_external_bluetooth_bluedroid" remote="github" revision="jellybean"/>
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/busybox" name="ParanoidAndroid/android_external_busybox" remote="github" revision="jellybean"/>
   <project path="external/bsdiff" name="platform/external/bsdiff" />
