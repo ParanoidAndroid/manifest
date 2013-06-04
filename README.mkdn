@@ -37,3 +37,10 @@ Then to sync up:
     repo sync
 
 For information on how to build, check [Here](https://github.com/ParanoidAndroid/paranoid)
+
+
+Branch
+------
+
+For Nexus devices, use the branch 'jellybean'
+For the rest of non-nexus devices, the branch to use is 'jellybean-legacy'
