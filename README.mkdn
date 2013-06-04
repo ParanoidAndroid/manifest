@@ -42,5 +42,6 @@ For information on how to build, check [Here](https://github.com/ParanoidAndroid
 Branch
 ------
 
-For Nexus devices, use the branch 'jellybean'
+For Nexus devices, use the branch 'jellybean'.
+
 For the rest of non-nexus devices, the branch to use is 'jellybean-legacy'
