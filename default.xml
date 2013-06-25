@@ -7,7 +7,7 @@
 
   <remote  name="github"
            fetch="https://github.com"
-           review="gerrit.androidninjas.com:8181"
+           review="https;//gerrit.androidninjas.com:8181"
            revision="jellybean" />
 
   <remote  name="private"
@@ -20,7 +20,7 @@
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
 
-  <default revision="refs/tags/android-4.2.2_r1"
+  <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -189,7 +189,7 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/v8" name="platform/external/v8" remote="aosp" revision="master" />
+  <project path="external/v8" name="platform/external/v8" remote="aosp" revision="1724e02fae2f5a2de04e994567a8c74cd31068ef" />
   <project path="external/valgrind" name="platform/external/valgrind" />
   <project path="external/webkit" name="ParanoidAndroid/android_external_webkit" remote="github" revision="jellybean" />
   <project path="external/webp" name="platform/external/webp" />
