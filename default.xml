@@ -7,7 +7,7 @@
 
   <remote  name="github"
            fetch="https://github.com"
-           review="https;//gerrit.androidninjas.com:8181"
+           review="https://gerrit.androidninjas.com:8181"
            revision="jellybean" />
 
   <remote  name="private"
