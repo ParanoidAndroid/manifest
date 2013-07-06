@@ -239,7 +239,7 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-   <project path="packages/apps/Browser" name="ParanoidAndroid/android_packages_apps_Browser" remote="github" revision="jellybean" />
+  <project path="packages/apps/Browser" name="ParanoidAndroid/android_packages_apps_Browser" remote="github" revision="jellybean" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="github" revision="cm-10.1" />
   <project path="packages/apps/Calendar" name="ParanoidAndroid/android_packages_apps_Calendar" remote="github" revision="jellybean" />
   <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="github" revision="cm-10.1" />
@@ -282,7 +282,7 @@
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
+  <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" remote="github" revision="cm-10.1" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
