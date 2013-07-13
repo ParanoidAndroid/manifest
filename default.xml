@@ -258,7 +258,7 @@
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" remote="github" revision="cm-10.1" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="ParanoidAndroid/android_packages_apps_Nfc" remote="github" revision="jellybean-legacy" />
-  <project path="packages/apps/PackageInstaller" name="ParanoidAndroid/android_packages_apps_PackageInstaller" remote="github" revision="jellybean" />
+  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="ParanoidAndroid/android_packages_apps_Phone" remote="github" revision="jellybean-legacy" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
