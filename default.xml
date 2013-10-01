@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com" />
 
   <remote  name="github"
-           fetch=".."
+           fetch="git://github.com"
            review="gerrit.paranoidandroid.co" />
 
   <remote  name="private"
